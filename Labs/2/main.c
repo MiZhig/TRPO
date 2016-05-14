@@ -34,7 +34,7 @@ int main() {
                 printf("x = %f", -b / (2 * a));
             }
             else {
-                printf("x1 = %, x2 = %f", (-b + sqrt(d)) / (2 * a), (-b - sqrt(d)) / (2 * a));
+                printf("x1 = %f, x2 = %f", (-b + sqrt(d)) / (2 * a), (-b - sqrt(d)) / (2 * a));
             }
         }
     }
