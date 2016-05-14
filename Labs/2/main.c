@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-main()
+int main()
 {
     float a,b,c;
     printf("Vvedite a, b, c cherez probel: ");
@@ -25,7 +25,7 @@ main()
     }
     else
     {
-        float d, x1, x2;
+        float d;
         d = b * b - 4 * a * c;
         if(d < 0)
         {
